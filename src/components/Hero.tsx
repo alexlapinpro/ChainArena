@@ -15,8 +15,8 @@ export const Hero = () => {
           
           <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-tight tracking-tight">
             Your Fair On-Chain{" "}
-            <span className="gradient-primary bg-clip-text text-transparent">
-              Tournaments for Games & Esports
+            <span className="gradient-primary bg-clip-text text-transparent [-webkit-background-clip:text] [-webkit-text-fill-color:transparent]">
+              Tournaments for Games &amp; Esports
             </span>
           </h1>
           
