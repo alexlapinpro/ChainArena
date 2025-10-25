@@ -23,7 +23,7 @@ export const Header = () => {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         <div className="flex items-center gap-8">
           <Link to="/">
-            <h1 className="text-2xl font-bold gradient-primary bg-clip-text text-transparent">
+            <h1 className="text-2xl font-bold text-foreground hover:text-primary transition-colors">
               ChainArena
             </h1>
           </Link>

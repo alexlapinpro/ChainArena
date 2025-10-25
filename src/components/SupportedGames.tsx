@@ -22,8 +22,8 @@ export const SupportedGames = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4 max-w-6xl mx-auto">
           {games.map((game, index) => (
-            <Card key={index} className="p-6 hover:border-primary/50 transition-all group cursor-pointer">
-              <div className={`h-16 w-16 rounded-xl bg-gradient-to-br ${game.color} mx-auto mb-3 group-hover:scale-110 transition-transform`} />
+            <Card key={index} className="p-6 hover:border-primary/50 hover:shadow-lg hover:shadow-primary/20 transition-all duration-300 group cursor-pointer">
+              <div className={`h-16 w-16 rounded-xl bg-gradient-to-br ${game.color} mx-auto mb-3 group-hover:scale-110 group-hover:shadow-lg transition-all duration-300`} />
               <p className="text-center font-semibold text-sm">{game.name}</p>
             </Card>
           ))}

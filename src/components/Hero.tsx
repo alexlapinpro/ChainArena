@@ -8,15 +8,15 @@ export const Hero = () => {
       <div className="absolute inset-0 bg-gradient-to-br from-primary/10 via-transparent to-secondary/10" />
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
-          <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 mb-6">
+          <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/30 rounded-full px-4 py-2 mb-6 glow-primary">
             <Zap className="h-4 w-4 text-primary" />
-            <span className="text-sm text-primary font-medium">Powered by Ethereum</span>
+            <span className="text-sm text-primary font-semibold">Powered by Xsolla</span>
           </div>
           
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-            Organize Esports Tournaments with{" "}
+          <h1 className="text-6xl md:text-8xl font-bold mb-6 leading-tight tracking-tight">
+            Your Fair On-Chain{" "}
             <span className="gradient-primary bg-clip-text text-transparent">
-              Instant On-Chain Payouts
+              Tournaments for Games & Esports
             </span>
           </h1>
           

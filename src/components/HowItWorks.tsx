@@ -32,15 +32,15 @@ export const HowItWorks = () => {
 
         <div className="grid md:grid-cols-3 gap-8 max-w-6xl mx-auto">
           {steps.map((step, index) => (
-            <Card key={index} className="p-8 relative overflow-hidden group hover:border-primary/50 transition-all">
-              <div className="absolute top-4 right-4 text-6xl font-bold text-primary/10 group-hover:text-primary/20 transition-colors">
+            <Card key={index} className="p-10 relative overflow-hidden group hover:border-primary/50 hover:shadow-lg hover:shadow-primary/20 transition-all duration-300">
+              <div className="absolute top-6 right-6 text-7xl font-bold text-primary/10 group-hover:text-primary/20 transition-colors">
                 {index + 1}
               </div>
               <div className="relative">
-                <div className="h-16 w-16 rounded-xl bg-primary/10 flex items-center justify-center mb-6 group-hover:bg-primary/20 transition-colors">
+                <div className="h-16 w-16 rounded-xl bg-primary/20 flex items-center justify-center mb-6 group-hover:bg-primary/30 group-hover:scale-110 transition-all duration-300">
                   <step.icon className="h-8 w-8 text-primary" />
                 </div>
-                <h3 className="text-2xl font-bold mb-3">{step.title}</h3>
+                <h3 className="text-2xl font-bold mb-4">{step.title}</h3>
                 <p className="text-muted-foreground leading-relaxed">{step.description}</p>
               </div>
             </Card>
